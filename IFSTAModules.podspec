@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,6 +64,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
   spec.platform     = :ios, "13.0"
+  spec.swift_version = "5"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -91,7 +92,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "IFSTAModules"
   spec.exclude_files = "Classes/Exclude"
-  spec.swift_version = "5"
 
   # spec.public_header_files = "Classes/**/*.h"
 
