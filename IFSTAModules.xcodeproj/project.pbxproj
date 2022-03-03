@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E47FDB4E27C75D2E0013FA32 /* IFSTAModules.h in Headers */ = {isa = PBXBuildFile; fileRef = E47FDB4D27C75D2E0013FA32 /* IFSTAModules.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E47FDB5927C75DE50013FA32 /* ExamPrepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FDB5827C75DE50013FA32 /* ExamPrepViewController.swift */; };
-		E47FDB5F27C75E3B0013FA32 /* ExamPrepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FDB5E27C75E3B0013FA32 /* ExamPrepViewModel.swift */; };
 		E47FDB6127C75E590013FA32 /* ExamPrepHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FDB6027C75E590013FA32 /* ExamPrepHomeViewController.swift */; };
 		E47FDB6327C75E680013FA32 /* ExamPrepHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FDB6227C75E680013FA32 /* ExamPrepHomeViewModel.swift */; };
 		E47FDB7427C8AD160013FA32 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FDB7327C8AD160013FA32 /* Coordinator.swift */; };
@@ -20,8 +18,6 @@
 /* Begin PBXFileReference section */
 		E47FDB4A27C75D2E0013FA32 /* IFSTAModules.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IFSTAModules.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47FDB4D27C75D2E0013FA32 /* IFSTAModules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFSTAModules.h; sourceTree = "<group>"; };
-		E47FDB5827C75DE50013FA32 /* ExamPrepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPrepViewController.swift; sourceTree = "<group>"; };
-		E47FDB5E27C75E3B0013FA32 /* ExamPrepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPrepViewModel.swift; sourceTree = "<group>"; };
 		E47FDB6027C75E590013FA32 /* ExamPrepHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPrepHomeViewController.swift; sourceTree = "<group>"; };
 		E47FDB6227C75E680013FA32 /* ExamPrepHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPrepHomeViewModel.swift; sourceTree = "<group>"; };
 		E47FDB7327C8AD160013FA32 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -59,88 +55,14 @@
 		E47FDB4C27C75D2E0013FA32 /* IFSTAModules */ = {
 			isa = PBXGroup;
 			children = (
-				E47FDB7227C8AD070013FA32 /* Coordinator */,
-				E47FDB5427C75D3C0013FA32 /* Modules */,
-				E47FDB5627C75D5F0013FA32 /* Model */,
-				E47FDB5527C75D480013FA32 /* Helpers */,
-				E47FDB4D27C75D2E0013FA32 /* IFSTAModules.h */,
-			);
-			path = IFSTAModules;
-			sourceTree = "<group>";
-		};
-		E47FDB5427C75D3C0013FA32 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				E47FDB5727C75DB60013FA32 /* ExapPrep */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		E47FDB5527C75D480013FA32 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		E47FDB5627C75D5F0013FA32 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E47FDB5727C75DB60013FA32 /* ExapPrep */ = {
-			isa = PBXGroup;
-			children = (
-				E47FDB5D27C75E190013FA32 /* CellModels */,
-				E47FDB5C27C75E130013FA32 /* Views */,
-				E47FDB5B27C75E0A0013FA32 /* ViewModels */,
-				E47FDB5A27C75E040013FA32 /* Controllers */,
-			);
-			path = ExapPrep;
-			sourceTree = "<group>";
-		};
-		E47FDB5A27C75E040013FA32 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				E47FDB5827C75DE50013FA32 /* ExamPrepViewController.swift */,
-				E47FDB6027C75E590013FA32 /* ExamPrepHomeViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		E47FDB5B27C75E0A0013FA32 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				E47FDB5E27C75E3B0013FA32 /* ExamPrepViewModel.swift */,
-				E47FDB6227C75E680013FA32 /* ExamPrepHomeViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		E47FDB5C27C75E130013FA32 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E47FDB5D27C75E190013FA32 /* CellModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CellModels;
-			sourceTree = "<group>";
-		};
-		E47FDB7227C8AD070013FA32 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
 				E47FDB7327C8AD160013FA32 /* Coordinator.swift */,
 				E47FDB7527C8AD430013FA32 /* MainCoordinator.swift */,
 				E47FDB7727C8ADEF0013FA32 /* CoordinatorBoard.swift */,
+				E47FDB6027C75E590013FA32 /* ExamPrepHomeViewController.swift */,
+				E47FDB6227C75E680013FA32 /* ExamPrepHomeViewModel.swift */,
+				E47FDB4D27C75D2E0013FA32 /* IFSTAModules.h */,
 			);
-			path = Coordinator;
+			path = IFSTAModules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,12 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E47FDB7827C8ADEF0013FA32 /* CoordinatorBoard.swift in Sources */,
-				E47FDB5F27C75E3B0013FA32 /* ExamPrepViewModel.swift in Sources */,
 				E47FDB7627C8AD430013FA32 /* MainCoordinator.swift in Sources */,
 				E47FDB6327C75E680013FA32 /* ExamPrepHomeViewModel.swift in Sources */,
 				E47FDB7427C8AD160013FA32 /* Coordinator.swift in Sources */,
 				E47FDB6127C75E590013FA32 /* ExamPrepHomeViewController.swift in Sources */,
-				E47FDB5927C75DE50013FA32 /* ExamPrepViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
